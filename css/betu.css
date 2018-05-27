@@ -1,0 +1,283 @@
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 22rem;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: proxima-nova, sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  color: #343a40;
+}
+
+hr {
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+}
+
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #BD5D38;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 100vh;
+    padding: 0;
+    background: url('../img/bg2.jpg');
+    text-align: left;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 8rem;
+    max-height: 8rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+    margin-bottom: 0px;
+    width: 22rem;
+    /* background: rgba(0, 0, 100, .4) !important; */
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    padding-left: 90px;
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: auto;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #BD5D38 !important;
+}
+
+.text-primary {
+  color: #BD5D38 !important;
+}
+
+a {
+  color: #BD5D38;
+}
+
+a:hover, a:focus, a:active {
+  color: #fff;
+}
+
+.sidebar-button-icon {
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 18px;
+  padding-top: 0;
+  vertical-align: middle;
+  margin-right: 13px;
+  padding: 10px;
+  /* background: #250000; */
+  border-radius: 50%;
+  border: 1px dashed white;
+}
+
+.nav-link span {
+  vertical-align: middle;
+}
+
+.bg-nav {
+  background: url('../img/bg.jpg');
+  background-size: cover;
+}
+
+.blur {
+  background: rgba(0, 0, 100, .4) !important;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#social-table {
+  width: 100%;
+}
+
+#social-table ul {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 2rem;
+  padding-bottom: 6px;
+}
+
+.list-social-icons a {
+  color: transparent;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 25px;
+}
+
+.list-social-icons a:hover {
+  color: #5f0303;
+}
+
+.name {
+  color: white;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+h5.name {
+  text-align: center;
+  font-size: .8rem;
+  text-transform: none;
+  /* padding: 9px; */
+  max-width: 227px;
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+/* Blog */
+
+.blog-data {
+  margin-top: -16px;
+  font-size: 15px;
+}
+
+.blog-box a {
+  margin-left: 0;
+}
+
+.blog-section h3 {
+  font-weight: normal;
+  font-size: 23px
+}
+
+.blog-read-more {
+  color: #245fa9 !important;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  /* line-height: 12px; */
+  font-size: 14px;
+}
+
+.blog-read-more:hover {
+  color: blue !important;
+}
+
+.form-control {
+  width: 100% !important
+}
+
+.search-section {
+  padding-bottom: 0 !important;
+}
+
+.badge-pill {
+  border-radius: 2px;
+  padding: 8px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.mycolor {
+  background-color: #080733cc !important;
+}
+
+.no-border {
+  border: 0 !important;
+}

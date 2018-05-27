@@ -1,4 +1,4 @@
-# [Betu]
+# Betu
 
 ## Copyright and License
 
