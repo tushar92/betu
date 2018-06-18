@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+  <a class="navbar-brand js-scroll-trigger" href="/betu/index.php">
     <span class="d-block d-lg-none">GuptaTushar.io</span>
     <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/betu/img/profile.jpg" alt="">
       <h4 class='name'>Tushar Gupta
       </h4>
     </span>

@@ -281,3 +281,16 @@ h5.name {
 .no-border {
   border: 0 !important;
 }
+
+.blogdata h2{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.content {
+  color: #5d686f !important;
+  width:90%;
+}
+.content p{
+  font-size: 1.2rem;
+}

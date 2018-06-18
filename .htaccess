@@ -1,0 +1,4 @@
+# Turn on the rewrite engine
+RewriteEngine  on
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L]

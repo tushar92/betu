@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Tushar Gupta</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,7 +50,7 @@
       </div>
       <?php include('includes/blogsummary.php'); ?>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
@@ -107,7 +107,7 @@
               Agile Development &amp; Scrum</li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
 
 
